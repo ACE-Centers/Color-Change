@@ -5,8 +5,8 @@ load dependency
 "GHBit": "file:../pxt-ghbit"
 */
 
-//% color="#C814B8" weight=20 icon="\uf11b"
-namespace GHBit {
+//% color="#585CA9" weight=20 icon="\uf11b"
+namespace Handle_ACE {
 
     const PCA9685_ADD = 0x41;
     const MODE1 = 0x00;

@@ -1,7 +1,7 @@
 {
-    "name": "GHBit",
+    "name": "Color Change",
     "version": "3.0.3",
-    "description": "Extension for YahBoom GHBit_V1/V2 V3.0.3",
+    "description": "Extension for microbit handle",
     "license": "MIT",
     "dependencies": {
         "core": "*",

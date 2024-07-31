@@ -241,8 +241,8 @@ namespace Handle_ACE {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function RGB_Program_Close(): void {
         pins.digitalWritePin(DigitalPin.P4, 0);
-        GHBit.RGB_Program().clear();
-        GHBit.RGB_Program().show();
+        Handle_ACE.RGB_Program().clear();
+        Handle_ACE.RGB_Program().show();
     }
     
     //% blockId=GHBit_Min_Motor_Shake block="Min_Motor_Shake|value %value"

@@ -1,11 +1,5 @@
-﻿/*
-Copyright (C): 2010-2019, Shenzhen Yahboom Tech
-modified from liusen
-load dependency
-"GHBit": "file:../pxt-ghbit"
-*/
-
-//% color="#585CA9" weight=20 icon="\uf11b"
+//%color="#585CA9" 
+//%weight=20 icon="\uf11b"
 namespace Handle_ACE {
 
     const PCA9685_ADD = 0x41;
@@ -224,7 +218,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_RGB_Program block="RGB_Program"
     //% weight=99
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function RGB_Program(): neopixel.Strip {
          
@@ -237,7 +231,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_RGB_Program_Close block="RGB_Program_Close"
     //% weight=98
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function RGB_Program_Close(): void {
         pins.digitalWritePin(DigitalPin.P4, 0);
@@ -248,7 +242,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Min_Motor_Shake block="Min_Motor_Shake|value %value"
     //% weight=97
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Min_Motor_Shake(value: Motorshock): void {
         switch (value) {
@@ -266,7 +260,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Rocker block="Rocker|value %value"
     //% weight=96
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=6
     export function Rocker(value: enRocker): boolean {
 
@@ -313,7 +307,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Button block="Button|num %num|value %value"
     //% weight=95
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=5
     export function Button(num: enButton, value: enButtonState): boolean {
          let temp = false;
@@ -367,7 +361,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Music_Handle block="Music_Handle|%index"
     //% weight=92
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music_Handle(index: enMusic): void {
         switch (index) {
@@ -397,7 +391,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Servo_Handle block="Servo_Handle|num %num|value %value"
     //% weight=91
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% num.min=1 num.max=4 value.min=0 value.max=180
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=9
     export function Servo_Handle(num: enServo, value: number): void {
@@ -410,7 +404,7 @@ namespace Handle_ACE {
     }
         
     //% blockId=GHBit_Ultrasonic_Handle block="ultrasonic return distance(cm)"
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% weight=90
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -428,7 +422,7 @@ namespace Handle_ACE {
     }
 
     //% blockId=GHBit_Ultrasonic_Handle_V2 block="ultrasonic_V2 return distance(cm)"
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% weight=90
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -448,7 +442,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_RGB_Colorful block="RGB_Colorful|%value"
     //% weight=89
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function RGB_Colorful(value: enColor): void {
         switch (value) {
@@ -506,7 +500,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Stepper_Motor block="Stepper_Motor|value %value|value1 %value1"
     //% weight=88
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Stepper_Motor(value: STepper, value1: speed): void {
     	  let a = 64;  
@@ -579,7 +573,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Min_Motor block="Min_Motor|value %value"
     //% weight=87
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Min_Motor(value: Angle): void {
         switch (value) {
@@ -628,7 +622,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Rotate block="Rotate|value %value"
     //% weight=86
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=6
     export function Rotate(value: Angle): boolean {
 
@@ -698,7 +692,7 @@ namespace Handle_ACE {
     //% blockId=GHBit_Beam block="Beam|value %value"
     //% weight=85
     //% blockGap=10
-    //% color="#C814B8"
+    //% color="#585CA9"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=6
     export function Beam(value: Beamstate): boolean {
 
